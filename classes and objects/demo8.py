@@ -84,4 +84,24 @@ c2.print_color(), c2.print_brand()
 # print(c1.wheels)
 
 
-del c1   # deletes the object itself.
+del c1  # deletes the object itself.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
