@@ -1,8 +1,8 @@
 # consider a module to be the same as a code library
 # a file containing a set of functions you want to  include in your application
 
-import demo9
-import pythonawesome as demo10
+import demo9.py
+import pythonawesome.py as demo10
 import platform
 
 print(demo9.sentence)

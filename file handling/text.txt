@@ -1,0 +1,8 @@
+Using Dictionaries
+The list-based record representations in the prior section work, though not without
+some cost in terms of performance required to search for field names (assuming you
+need to care about milliseconds and such). But if you already know some Python, you
+also know that there are more efficient and convenient ways to associate property
+names and values. The built-in dictionary object is a natural:
+>>> bob = {'name': 'Bob Smith', 'age': 42, 'pay': 30000, 'job': 'dev'}
+>>> sue = {'name': 'Sue Jones', 'age': 45, 'pay': 40000, 'job': 'hdw'}
