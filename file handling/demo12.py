@@ -26,3 +26,14 @@ f.close()
 #open and read the file after the appending:
 f = open("my_file.txt", "r")
 print(f.read())
+
+
+
+
+
+
+
+
+
+
+
