@@ -45,6 +45,3 @@ for num in range(x):
 
 
 
-
-
-

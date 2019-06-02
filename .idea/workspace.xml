@@ -3,10 +3,70 @@
   <component name="ChangeListManager">
     <list default="true" id="46868655-fd03-43f3-881d-b91ae0815817" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Python_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Beginner/helloworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Casting/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Casting/demo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/Flask_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/Flask_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Click-7.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Click-7.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Flask-1.0.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Flask-1.0.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Werkzeug-0.15.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Werkzeug-0.15.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/itsdangerous-1.1.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/itsdangerous-1.1.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/demo7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/demo7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numbers/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/demo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Try_except/demo11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Try_except/demo11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/assignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes and objects/demo8.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes and objects/demo8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes/Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/Lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/dictionaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes/sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/tuples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file handling/demo12.py" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/demo12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file handling/my_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/my_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file handling/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file handling/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if _conditions/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/if _conditions/demo6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/looping/for loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/looping/for loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/looping/whileloop.py" beforeDir="false" afterPath="$PROJECT_DIR$/looping/whileloop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo9.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/pythonawesome.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pythonawesome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operators/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/operators/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/variables/demo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +91,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Flask_Project/app.py">
+        <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -67,7 +127,6 @@
         <option value="$PROJECT_DIR$/looping/whileloop.py" />
         <option value="$PROJECT_DIR$/looping/for loop.py" />
         <option value="$PROJECT_DIR$/if _conditions/demo6.py" />
-        <option value="$PROJECT_DIR$/assignment/assignment.py" />
         <option value="$PROJECT_DIR$/Functions/demo7.py" />
         <option value="$PROJECT_DIR$/classes and objects/demo8.py" />
         <option value="$PROJECT_DIR$/modules/demo9.py" />
@@ -78,6 +137,7 @@
         <option value="$PROJECT_DIR$/file handling/demo12.py" />
         <option value="$PROJECT_DIR$/inheritance/demo13.py" />
         <option value="$PROJECT_DIR$/inheritance/inheritance.py" />
+        <option value="$PROJECT_DIR$/assignment/assignment.py" />
       </list>
     </option>
   </component>
@@ -93,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,22 +160,18 @@
               <item name="Python_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_class" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_class" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Flask_Project" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -297,21 +352,21 @@
     <option name="totallyTimeSpent" value="61651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.15885022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.16136363" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.15204236" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34101382" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34049585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32872504" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.34101382" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.338843" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -454,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datatypes/Lists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -528,9 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance/demo13.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance/demo13.py" />
     <entry file="file://$PROJECT_DIR$/inheritance/desktop.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -552,6 +598,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
