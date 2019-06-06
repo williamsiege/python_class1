@@ -2,71 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46868655-fd03-43f3-881d-b91ae0815817" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/contact_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/greetings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Beginner/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Beginner/helloworld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Casting/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Casting/demo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/Flask_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/Flask_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Click-7.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Click-7.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Flask-1.0.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Flask-1.0.3.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Jinja2-2.10.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Werkzeug-0.15.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/Werkzeug-0.15.4.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/itsdangerous-1.1.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/itsdangerous-1.1.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-3.7.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/easy_install.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.7.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/Scripts/pip3.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Project/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions/demo7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/demo7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numbers/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/demo5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Try_except/demo11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Try_except/demo11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/assignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes and objects/demo8.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes and objects/demo8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datatypes/Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/Lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datatypes/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datatypes/sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/sets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datatypes/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/tuples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file handling/demo12.py" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/demo12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file handling/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file handling/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file handling/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if _conditions/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/if _conditions/demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/desktop.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/inheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/looping/for loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/looping/for loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/looping/whileloop.py" beforeDir="false" afterPath="$PROJECT_DIR$/looping/whileloop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/demo9.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/pythonawesome.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pythonawesome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operators/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/operators/demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/variables/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_flask/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +35,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datatypes/dictionaries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1401">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes and objects/demo8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -141,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -157,8 +120,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="Python_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_class" type="462c0819:PsiDirectoryNode" />
+              <item name="python_class1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_class1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_class1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_class1" type="462c0819:PsiDirectoryNode" />
+              <item name="classes and objects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,7 +139,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -337,6 +305,7 @@
       <workItem from="1558948276477" duration="2628000" />
       <workItem from="1559031498828" duration="8520000" />
       <workItem from="1559203536851" duration="7508000" />
+      <workItem from="1559812954742" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="learning file handling">
       <created>1559204045160</created>
@@ -349,12 +318,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61651000" />
+    <option name="totallyTimeSpent" value="62955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.16136363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.1633888" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.15204236" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -412,23 +381,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="learning file handling" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_class$index.coverage" NAME="index Coverage Results" MODIFIED="1559038246047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
-    <SUITE FILE_PATH="coverage/Python_class$demo11.coverage" NAME="demo11 Coverage Results" MODIFIED="1559033599511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Try_except" />
-    <SUITE FILE_PATH="coverage/Python_class$sets.coverage" NAME="sets Coverage Results" MODIFIED="1557987095304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
-    <SUITE FILE_PATH="coverage/Python_class$for_loop.coverage" NAME="for loop Coverage Results" MODIFIED="1558342719093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/looping" />
-    <SUITE FILE_PATH="coverage/Python_class$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1557908893944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings" />
     <SUITE FILE_PATH="coverage/Python_class$main.coverage" NAME="main Coverage Results" MODIFIED="1559203653636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/Python_class$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1558515184031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
+    <SUITE FILE_PATH="coverage/Python_class$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1557908893944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings" />
     <SUITE FILE_PATH="coverage/Python_class$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1559032338349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes and objects" />
-    <SUITE FILE_PATH="coverage/Python_class$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1558343184116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if _conditions" />
-    <SUITE FILE_PATH="coverage/Python_class$demo12.coverage" NAME="demo12 Coverage Results" MODIFIED="1559207379279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
+    <SUITE FILE_PATH="coverage/Python_class$for_loop.coverage" NAME="for loop Coverage Results" MODIFIED="1558342719093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/looping" />
     <SUITE FILE_PATH="coverage/Python_class$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1559210437396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inheritance" />
-    <SUITE FILE_PATH="coverage/Python_class$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1557996240413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
-    <SUITE FILE_PATH="coverage/Python_class$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1557999262538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$index.coverage" NAME="index Coverage Results" MODIFIED="1559038246047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
     <SUITE FILE_PATH="coverage/Python_class$assignment.coverage" NAME="assignment Coverage Results" MODIFIED="1558426470867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment" />
-    <SUITE FILE_PATH="coverage/Python_class$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1557913423070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
-    <SUITE FILE_PATH="coverage/Python_class$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1558341957439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/operators" />
     <SUITE FILE_PATH="coverage/Python_class$whileloop.coverage" NAME="whileloop Coverage Results" MODIFIED="1558344787217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/looping" />
+    <SUITE FILE_PATH="coverage/Python_class$sets.coverage" NAME="sets Coverage Results" MODIFIED="1557987095304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1558515184031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
+    <SUITE FILE_PATH="coverage/Python_class$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1557999262538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1557996240413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1558341957439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/operators" />
+    <SUITE FILE_PATH="coverage/Python_class$demo11.coverage" NAME="demo11 Coverage Results" MODIFIED="1559033599511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Try_except" />
+    <SUITE FILE_PATH="coverage/Python_class$demo12.coverage" NAME="demo12 Coverage Results" MODIFIED="1559207379279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
+    <SUITE FILE_PATH="coverage/Python_class$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1557913423070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1558343184116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if _conditions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lists/demo6.py" />
@@ -443,13 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datatypes/dictionaries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
@@ -587,24 +549,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes and objects/demo8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask_Project/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask_Project/app.py" />
     <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datatypes/dictionaries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1401">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes and objects/demo8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
