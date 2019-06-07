@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46868655-fd03-43f3-881d-b91ae0815817" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_flask/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/templates/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/templates/contact_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_flask/templates/greetings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_flask/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -47,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datatypes/dictionaries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1401">
+            <state relative-caret-position="1411">
               <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
@@ -56,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes and objects/demo8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
+            <state relative-caret-position="569">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
@@ -104,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -116,29 +107,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python_class1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_class1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_class1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_class1" type="462c0819:PsiDirectoryNode" />
-              <item name="classes and objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_flask" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -305,7 +281,8 @@
       <workItem from="1558948276477" duration="2628000" />
       <workItem from="1559031498828" duration="8520000" />
       <workItem from="1559203536851" duration="7508000" />
-      <workItem from="1559812954742" duration="1304000" />
+      <workItem from="1559812954742" duration="1585000" />
+      <workItem from="1559896664013" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="learning file handling">
       <created>1559204045160</created>
@@ -318,12 +295,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62955000" />
+    <option name="totallyTimeSpent" value="63266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.1633888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.17019667" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.15204236" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -552,21 +529,21 @@
     <entry file="file://$PROJECT_DIR$/Flask_Project/app.py" />
     <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datatypes/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1401">
+        <state relative-caret-position="1411">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes and objects/demo8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
+        <state relative-caret-position="569">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>

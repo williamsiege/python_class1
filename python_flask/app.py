@@ -9,15 +9,20 @@ db = SQLAlchemy(app)
 # db.create_all()- Activate the database
 # db.drop_all()- Used to delete the entire database
 # from app import db - Import the database inside  the TERMINAL
+# fetching data from the database = languages.query.all()
+# add data to the database = db.session.add(data)
+# saving data in the database = db.session.commit()
 
+
+# programming language table/model
 class Language(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(50), unique=True, nullable=True)
+    name = db.Column(db.String(50), unique=True, nullable=False)
     image = db.Column(db.String(60))
     description = db.Column(db.Text)
 
-    def __rep__(self):
-        self.name
+    def __repr__(self):
+        return self.name, self.id, self.image, self.description
 
 
 # CRUD APP create ,read , update, delete
