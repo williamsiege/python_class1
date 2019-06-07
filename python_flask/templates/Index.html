@@ -9,18 +9,20 @@
     {# user {{  }} when displaying a variable #}
     {# use {% opening %} {% closing %} to add python logic #}
     <h1>CRUD WEBSITE</h1>
+<h1>
 {% if languages %}
          {% for language in languages %}
-            <ul>
-                <li>
-                    {{ languages.id }}
-                </li>
-            </ul>
-    {% endfor %}
+             <ul>
+                 <li>
+                     {{ languages }}
+                 </li>
+             </ul>
+         {% endfor %}
     {% else %}
          <h1>THERE ARE NO LANGUAGES</h1>
      {% endif %}
 
+</h1>
 
 {#    {% if the_fruits %}#}
 {#         {% for fruit in the_fruits %}#}

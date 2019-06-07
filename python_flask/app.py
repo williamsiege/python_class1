@@ -22,7 +22,7 @@ class Language(db.Model):
     description = db.Column(db.Text)
 
     def __repr__(self):
-        return self.name, self.id, self.image, self.description
+        return self.name
 
 
 # CRUD APP create ,read , update, delete
