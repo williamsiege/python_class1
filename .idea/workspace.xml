@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46868655-fd03-43f3-881d-b91ae0815817" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/python_flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/crudapp.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/contact_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_flask/templates/greetings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_class.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="194">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -83,7 +99,9 @@
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -106,7 +124,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/R/R-3.6.0/bin/R.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -139,6 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/assignment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -274,6 +296,10 @@
       <workItem from="1559203536851" duration="7508000" />
       <workItem from="1559812954742" duration="1585000" />
       <workItem from="1559896664013" duration="30000" />
+      <workItem from="1560106294203" duration="147000" />
+      <workItem from="1560106480962" duration="68000" />
+      <workItem from="1560106964748" duration="318000" />
+      <workItem from="1560157123121" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="learning file handling">
       <created>1559204045160</created>
@@ -286,12 +312,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63266000" />
+    <option name="totallyTimeSpent" value="64569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.12276786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.12934947" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.15204236" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,7 +330,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32872504" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.338843" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.33794162" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -349,23 +376,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="learning file handling" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_class$main.coverage" NAME="main Coverage Results" MODIFIED="1559203653636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/Python_class$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1557908893944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings" />
-    <SUITE FILE_PATH="coverage/Python_class$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1559032338349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes and objects" />
-    <SUITE FILE_PATH="coverage/Python_class$for_loop.coverage" NAME="for loop Coverage Results" MODIFIED="1558342719093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/looping" />
-    <SUITE FILE_PATH="coverage/Python_class$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1559210437396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inheritance" />
-    <SUITE FILE_PATH="coverage/Python_class$index.coverage" NAME="index Coverage Results" MODIFIED="1559038246047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
-    <SUITE FILE_PATH="coverage/Python_class$assignment.coverage" NAME="assignment Coverage Results" MODIFIED="1558426470867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment" />
     <SUITE FILE_PATH="coverage/Python_class$whileloop.coverage" NAME="whileloop Coverage Results" MODIFIED="1558344787217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/looping" />
-    <SUITE FILE_PATH="coverage/Python_class$sets.coverage" NAME="sets Coverage Results" MODIFIED="1557987095304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
-    <SUITE FILE_PATH="coverage/Python_class$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1558515184031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
+    <SUITE FILE_PATH="coverage/Python_class$demo12.coverage" NAME="demo12 Coverage Results" MODIFIED="1559207379279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
+    <SUITE FILE_PATH="coverage/Python_class$main.coverage" NAME="main Coverage Results" MODIFIED="1559203653636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/Python_class$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1559032338349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes and objects" />
+    <SUITE FILE_PATH="coverage/Python_class$assignment.coverage" NAME="assignment Coverage Results" MODIFIED="1558426470867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment" />
     <SUITE FILE_PATH="coverage/Python_class$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1557999262538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
-    <SUITE FILE_PATH="coverage/Python_class$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1557996240413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
     <SUITE FILE_PATH="coverage/Python_class$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1558341957439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/operators" />
     <SUITE FILE_PATH="coverage/Python_class$demo11.coverage" NAME="demo11 Coverage Results" MODIFIED="1559033599511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Try_except" />
-    <SUITE FILE_PATH="coverage/Python_class$demo12.coverage" NAME="demo12 Coverage Results" MODIFIED="1559207379279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
     <SUITE FILE_PATH="coverage/Python_class$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1557913423070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$index.coverage" NAME="index Coverage Results" MODIFIED="1559038246047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file handling" />
+    <SUITE FILE_PATH="coverage/Python_class$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1557908893944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings" />
+    <SUITE FILE_PATH="coverage/Python_class$sets.coverage" NAME="sets Coverage Results" MODIFIED="1557987095304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
+    <SUITE FILE_PATH="coverage/Python_class$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1558515184031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
+    <SUITE FILE_PATH="coverage/Python_class$for_loop.coverage" NAME="for loop Coverage Results" MODIFIED="1558342719093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/looping" />
+    <SUITE FILE_PATH="coverage/Python_class$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1557996240413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datatypes" />
     <SUITE FILE_PATH="coverage/Python_class$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1558343184116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if _conditions" />
+    <SUITE FILE_PATH="coverage/Python_class$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1559210437396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inheritance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lists/demo6.py" />
@@ -534,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment/assignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="194">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>

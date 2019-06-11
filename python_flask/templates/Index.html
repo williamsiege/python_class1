@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block body %}
+ <h1>CRUD WEBSITE</h1>
+{% if languages %}
+         {% for language in languages %}
+             <ul>
+                 <li>
+                  <b>{{ language.name }}</b>
+                 </li>
+             </ul>
+         {% endfor %}
+    {% else %}
+         <h1>THERE ARE NO LANGUAGES</h1>
+     {% endif %}
+
+
+
+{#    {% if the_fruits %}#}
+{#         {% for fruit in the_fruits %}#}
+{#            <ul>#}
+{#                <li>#}
+{#                    {{ fruit }}#}
+{#                </li>#}
+{#            </ul>#}
+{#    {% endfor %}#}
+{#    {% else %}#}
+{#         <h1>THERE ARE NO FRUITS</h1>#}
+{#     {% endif %}#}
+{% endblock body %}
+    {# user {{  }} when displaying a variable #}
+    {# use {% opening %} {% closing %} to add python logic #}
