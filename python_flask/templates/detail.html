@@ -1,5 +1,6 @@
 {% extends'base.html' %}
 {% block body %}
+
     <h1>Language details page for {{ language.name }}</h1>
     <center>
 <li>
@@ -7,9 +8,10 @@
     <h3>{{ language.description }}</h3>
    <hr>
    <b><h2>IMAGE</h2></b>
-   <h3>{{ language.image }}</h3>
+    <img src="{{ language.image }}" alt="" style="height: 300px; width: 300px">
 
-
+<b><a href="{{ url_for('delete', language_id=language.id) }}" class="btn btn-danger">DELETE</a></b>
+<a href="{{ url_for('update', language_id=language.id) }}" class="btn btn-danger">UPDATE</a>
 </li>
     </center>
 

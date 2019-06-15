@@ -4,6 +4,7 @@
 {% if languages %}
          {% for language in languages %}
              <ul>
+             <img src="{{ language.image }}" alt="" style="height: 110px; width: 110px">
                  <li>{{ language.id }}
                    <b><a href="{{ url_for('detail_page', language_id = language.id) }}">{{ language.name }}</a></b>
                  </li>
@@ -12,7 +13,6 @@
     {% else %}
          <h1>THERE ARE NO LANGUAGES</h1>
      {% endif %}
-
 
 {#    {% if the_fruits %}#}
 {#         {% for fruit in the_fruits %}#}
