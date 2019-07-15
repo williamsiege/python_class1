@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb2d055e-65fc-443c-a124-d00d6bb9674d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/crudapp.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FORECAST_PROJECT/.idea/FORECAST_PROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/.idea/FORECAST_PROJECT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FORECAST_PROJECT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FORECAST_PROJECT/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FORECAST_PROJECT/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3711">
+            <state relative-caret-position="2537">
               <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
@@ -53,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="480">
               <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
@@ -161,25 +150,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python_flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_flask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_flask" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -259,6 +230,7 @@
       <workItem from="1560938448253" duration="2917000" />
       <workItem from="1560949415251" duration="774000" />
       <workItem from="1561113568179" duration="679000" />
+      <workItem from="1562245602702" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="python still learning flask">
       <created>1560245257942</created>
@@ -271,7 +243,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39572000" />
+    <option name="totallyTimeSpent" value="40190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -379,6 +351,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2537">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -418,23 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3711">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

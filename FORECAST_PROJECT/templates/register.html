@@ -9,11 +9,11 @@
 	<p class="lead"> Registration zone</p>
 </div>
 
-<div class="row">
+<div class="w3-row-padding w3-padding-64">
 	<div class="col-md-4 col-lg-4 col-md-offset-3 col-lg-offset-3">
 		<div class="panel">
 			<div class="panel-body">
-				<form action="{{ url_for('register')}}" method ="POST">
+				<form action="{{ url_for('register')}}" method ="POST" class="w3-large w3-text-black">
 					{{ form.hidden_tag() }}
 					{{ wtf.form_field(form.username) }}
 					{{ wtf.form_field(form.email) }}

@@ -45,7 +45,7 @@ class User(UserMixin, db.Model):
 class UserForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=4, max=50)])
     email = StringField("email", validators=[DataRequired(), Email(message="Invalid email address")])
-    password = PasswordField("Password", validators=[DataRequired(), EqualTo("confirm"), Length(min=8, max=80)])
+    password = PasswordField("Password", validators=[DataRequired(), EqualTo("confirm"), Length(min=8, max=100)])
     confirm = PasswordField("Confirm")
     submit = SubmitField()
 
@@ -56,9 +56,56 @@ class LoginForm(FlaskForm):
     submit = SubmitField()
 
 
+class EditUserForm(FlaskForm):
+    about_me = TextAreaField("About me", validators=[DataRequired()])
+    tech_stack = StringField("Tech Stack", validators=[DataRequired()])
+    # projects = StringField("Projects", validators=[DataRequired()])
+    publication = StringField("Publications", validators=[DataRequired()])
+    skills = StringField("Skills", validators=[DataRequired()])
+    experience = TextAreaField("Experience", validators=[DataRequired()])
+    submit = SubmitField()
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
+
+
 @app.route('/')
 def index():
     return flask.render_template('index.html')
+
+# USER PROFILE SYSTEM
+@app.route('/profile', methods=['GET', 'POST'])
+def profile():
+    admin = User.query.filter_by(username='admin').first()
+    user = User.query.filter_by(username='current_user.username').first()
+    return flask.render_template("profile.html", admin=admin, user=user)
+
+
+@app.route('/profile/edit/', methods=['GET', 'POST'])
+@login_required
+def edit_profile():
+    form = EditUserForm()
+    if form.validate_on_submit():
+        current_user.about_me = form.about_me.data
+        current_user.tech_stack = form.tech_stack.data
+        # current_user.projects = form.projects.data
+        current_user.skills = form.skills.data
+        current_user.experience = form.experience.data
+        current_user.publication = form.publication.data
+
+        db.session.commit()
+        flask.flash("Update success")
+        return flask.render_template('profile.html', user=current_user)
+
+    form.about_me.data = current_user.about_me
+    form.tech_stack.data = current_user.tech_stack
+    # form.projects.data = current_user.projects
+    form.skills.data = current_user.skills
+    form.experience.data = current_user.experience
+    form.publication.data = current_user.publication
+    return flask.render_template('edit_profile.html', form=form, title="Edit profile")
 
 
 # USER REGISTRATION SYSTEM
@@ -68,7 +115,7 @@ def register():
     if form.validate_on_submit():
         username = form.username.data
         email = form.email.data
-        password = generate_password_hash(form.password.data, method="sha256")
+        password = generate_password_hash(form.password.data, method="She124")
 
         new_user = User(username=username, email=email, password=password)
         db.session.add(new_user)
@@ -77,6 +124,32 @@ def register():
         return flask.redirect(flask.url_for('index'))
 
     return flask.render_template("register.html", form=form, title="Registration page")
+
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        if user:
+            if check_password_hash(user.password, form.password.data):
+                login_user(user)
+                flask.flash('Login successful')
+                return flask.redirect(flask.url_for('index'))
+            else:
+                flask.flash('Password not correct')
+                return flask.redirect(flask.url_for('login'))
+        else:
+            flask.flash('No user found')
+            return flask.redirect(flask.url_for('login'))
+    return flask.render_template("login.html", form=form)
+
+
+@app.route('/logout')
+def logout():
+    logout_user()
+    flask.flash('Welcome back again')
+    return flask.redirect(flask.url_for('index'))
 
 
 @app.errorhandler(404)
