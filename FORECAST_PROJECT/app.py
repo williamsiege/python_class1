@@ -8,11 +8,15 @@ from werkzeug.utils import secure_filename
 from flask_bootstrap import Bootstrap
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, login_user, logout_user, login_required, UserMixin, current_user
-
+from flask_mail import Message, Mail
+from flask_bcrypt import Bcrypt
 import os
 import datetime
 
-app = flask.Flask(__name__)  # class
+UPLOAD_FOLDER = '/static/upload/'
+ALLOWED_EXTENSIONS = set(['pdf'])
+
+app = flask.Flask(__name__, instance_relative_config=True)  # class
 bootstrap = Bootstrap(app)
 basedir = os.path.abspath(os.path.dirname(__file__))
 # Location of the database
@@ -20,11 +24,46 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crudapp.sqlite3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config["SECRET_KEY"] = "topsecret"
 
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+app.config["MAIL_SERVER"] = "smtp.googlemail.com"
+app.config["MAIL_PORT"] = 465
+app.config["MAIL_USE_SSL"] = True
+
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
+mail = Mail(app)
+bcrypt = Bcrypt(app)
 # creating the database
 db = SQLAlchemy(app)
+
+
+class Product(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    product_name = db.Column(db.String(50), unique=True, nullable=False)
+    product_image = FileField('Product picture', validators=[FileAllowed(['jpg', 'png', 'jpeg'])])
+    product_description = db.Column(db.Text)
+    product_price = db.Column(db.Text)
+
+    def __repr__(self):
+        return self.name
+
+
+class ProductForm(FlaskForm):
+    product_title = StringField("Title", validators=[DataRequired()])
+    product_picture = FileField('Add Product Picture', validators=[FileAllowed(['jpg', 'png', 'jpeg'])])
+    product_content = TextAreaField("Description", validators=[DataRequired()])
+    product_price = StringField("Price", validators=[DataRequired()])
+    submit = SubmitField("Update Product")
+
+
+class ContactForm(FlaskForm):
+    name = StringField("Name", validators=[DataRequired()])
+    email = StringField("Email", validators=[DataRequired(), Email()])
+    subject = StringField("Subject", validators=[DataRequired()])
+    message = TextAreaField("Message", validators=[DataRequired()])
+    submit = SubmitField("Send")
 
 
 class User(UserMixin, db.Model):
@@ -39,20 +78,30 @@ class User(UserMixin, db.Model):
     skills = db.Column(db.String(200))
     experience = db.Column(db.Text())
     publication = db.Column(db.String(50))
-    projects = db.relationship('Project', backref='author', lazy='dynamic')
+    products = db.relationship('Product', backref='author', lazy='dynamic')
 
 
 class UserForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=4, max=50)])
     email = StringField("email", validators=[DataRequired(), Email(message="Invalid email address")])
-    password = PasswordField("Password", validators=[DataRequired(), EqualTo("confirm"), Length(min=8, max=100)])
+    password = PasswordField("Password", validators=[DataRequired(), EqualTo("confirm"), Length(min=5, max=100)])
     confirm = PasswordField("Confirm")
-    submit = SubmitField()
+    submit = SubmitField("Signup")
+
+    # def validate_username(self, username):
+    #     user = User.query.filter_by(username=username.data).first()
+    #     if user:
+    #         raise ValidationError("User with the credentials exists")
+    #
+    # def validate_email(self, email):
+    #     user = User.query.filter_by(email=email.data).first()
+    #     if user:
+    #         raise ValidationError("User with the credentials exists")
 
 
 class LoginForm(FlaskForm):
     email = StringField("Email", validators=[DataRequired(), Email(message="Invalid email address")])
-    password = PasswordField("Password", validators=[DataRequired(), Length(min=8, max=80)])
+    password = PasswordField("Password", validators=[DataRequired(), Length(min=5, max=80)])
     submit = SubmitField()
 
 
@@ -73,7 +122,65 @@ def load_user(user_id):
 
 @app.route('/')
 def index():
-    return flask.render_template('index.html')
+    # products = Product.query.all()
+    return flask.render_template('index.html', )
+
+
+@app.route('//project/<int:product_id>', methods=['GET', 'POST'])
+def product_detail(product_id):
+    product = Product.query.filter_by(id=product_id).first()
+
+    form = ProductForm()
+    if form.validate_on_submit():
+        if form.product_picture.data:
+            f = form.picture.data
+            filename = secure_filename(f.filename)
+            f.flask.save(os.path.join(app.root_path + "/static/pictures", filename))
+            path = flask.url_for('static', filename='pictures/' + filename)
+            product.product_file = str(path)
+            print("PRODUCT PATH HERE " + product.project_file)
+        product.title = form.title.data
+        product.content = form.content.data
+
+        db.session.add(product)
+        db.session.commit()
+        flask.flash('Product updated successfully', 'success')
+        return flask.redirect(flask.request.url)
+
+    form.title.data = product.title
+    form.picture.data = product.project_file
+    form.content.data = product.content
+    form.price.data = product.price
+
+    return flask.render_template('product_page.html', product=product, title=product.title, form=form)
+
+
+@app.route('/add_product', methods=['GET', 'POST'])
+def add_product():
+    user = User.query.filter_by(id=1).first()
+    form = ProductForm()
+    if form.validate_on_submit():
+        if form.product_picture.data:
+            picture = form.picture.data
+            _, f_ext = os.path.splitext(picture.filename)
+            pic_name = _ + f_ext
+            picture_path = os.path.join(app.root_path + "/static/pictures", pic_name)
+            picture.save(picture_path)
+
+            path = flask.url_for('static', filename='pictures/' + pic_name)
+            product = Product(title=form.title.data, project_file=path, content=form.content.data, user_id=user.id)
+            db.session.add(product)
+            db.session.commit()
+            flask.flash('Addition successful', 'success')
+            return flask.redirect(flask.url_for('account'))
+        else:
+            project = Product(title=form.title.data, content=form.content.data,  user_id=user.id)
+            db.session.add(project)
+            db.session.commit()
+            flask.flash('Project added successful', 'success')
+            return flask.redirect(flask.url_for('account'))
+    return flask.render_template('add_product.html', form=form, title="Account")
+
 
 # USER PROFILE SYSTEM
 @app.route('/profile', methods=['GET', 'POST'])
@@ -115,7 +222,7 @@ def register():
     if form.validate_on_submit():
         username = form.username.data
         email = form.email.data
-        password = generate_password_hash(form.password.data, method="She124")
+        password = bcrypt.generate_password_hash(form.password.data).decode("utf-8")
 
         new_user = User(username=username, email=email, password=password)
         db.session.add(new_user)
@@ -150,6 +257,19 @@ def logout():
     logout_user()
     flask.flash('Welcome back again')
     return flask.redirect(flask.url_for('index'))
+
+
+@app.route('/contact', methods=["GET", "POST"])
+def contact():
+    form = ContactForm()
+    if form.validate_on_submit():
+        msg = Message(form.subject.data, sender=form.email.data, recipients=['wkwabuiya2@gmail.com'])
+        msg.body = """From: %s <%s> %s""" % (form.name.data, form.email.data, form.message.data)
+        mail.send(msg)
+
+        flask.flash("Message sent successfully", "success")
+        return flask.redirect(flask.url_for("contact"))
+    return flask.render_template('contact.html', form=form, title="Contact", )
 
 
 @app.errorhandler(404)

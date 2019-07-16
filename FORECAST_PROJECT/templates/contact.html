@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% block body %}
+{% block page_content %}
+<div class="">
+	<div class="container" style="margin-bottom: 280px">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-8">
+				<form method="POST" action="{{url_for('contact')}}">
+					{{form.hidden_tag()}}
+					<fieldset class="form-group">
+						<center><legend class="border-bottom mb-4"><h1>Get intouch</h1></legend></center>
+						   <div class="form-group">
+						   		{{form.name.label(class="form-control-label")}}
+						   			{% if form.name.errors %}
+						   				{{form.name(class="form-control form-control-lg is-invalid ")}}
+						   				<div class="invalid-feedback">
+						   					{% for error in form.name.errors %}
+						   						<span>{{error}}</span>
+						   					{% endfor%}
+						   				</div>
+						   			{% else%}
+						   				{{form.name(class="form-control form-control-lg")}}
+						   			{% endif %}
+						   </div>
+						   <div class="form-group">
+						   		{{form.email.label(class="form-control-label")}}
+						   		{% if form.email.errors %}
+						   				{{form.email(class="form-control form-control-lg is-invalid ")}}
+						   				<div class="invalid-feedback">
+						   					{% for error in form.email.errors %}
+						   						<span>{{error}}</span>
+						   					{% endfor%}
+						   				</div>
+						   			{% else%}
+						   				{{form.email(class="form-control form-control-lg")}}
+						   			{% endif %}
+						   </div>
+						   <div class="form-group">
+						   		{{form.subject.label(class="form-control-label")}}
+						   		{% if form.subject.errors %}
+						   				{{form.subject(class="form-control form-control-lg is-invalid ")}}
+						   				<div class="invalid-feedback">
+						   					{% for error in form.subject.errors %}
+						   						<span>{{error}}</span>
+						   					{% endfor%}
+						   				</div>
+						   			{% else%}
+						   				{{form.subject(class="form-control form-control-lg")}}
+						   			{% endif %}
+						   </div>
+						   <div class="form-group">
+						   		{{form.message.label(class="form-control-label")}}
+						   		{% if form.message.errors %}
+						   				{{form.message(class="form-control form-control-lg is-invalid ")}}
+						   				<div class="invalid-feedback">
+						   					{% for error in form.message.errors %}
+						   						<span>{{error}}</span>
+						   					{% endfor%}
+						   				</div>
+						   			{% else%}
+						   				{{form.message(class="form-control form-control-lg")}}
+						   			{% endif %}
+						   </div>
+						   <div class="form-group">
+						  		<center>
+						  			{{form.submit(class="btn btn-success btn-lg btn-block")}}
+						  		</center>
+							</div>
+							<div class="border-top pt-3">
+
+						</div>
+					</fieldset>
+
+				</form>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock page_content %}
+
+
+{% endblock body %}
