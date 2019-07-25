@@ -1,12 +1,14 @@
 {% extends 'base.html' %}
 {% block title %}{{title}} Page{% endblock title%}
 {% block body %}
+    <br>
+    <br>
 {% block page_content %}
 <div class="">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
 		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<form method="POST" action="{{url_for('add_project')}}" enctype="multipart/form-data">
+			<form  action="{{url_for('add_product')}}" method="post" enctype="multipart/form-data">
 				{{form.hidden_tag()}}
 				<fieldset class="form-group">
 					<legend class="border-bottom mb-4">Add Product </legend>
@@ -23,7 +25,6 @@
 				   				{{form.product_title(class="form-control form-control-lg")}}
 				   			{% endif %}
 					   </div>
-
 
 
 					   <div class="form-group">
@@ -50,16 +51,21 @@
 					   		{% endif%}
 					   	</div>
 
-                       <div class="form-group">
-					   		{{form.product_price.label()}}
-					   		<!-- {{form.product_price(class="form-control-file") }} -->
-					   		<input type="file" name="price" multiple="" >
+                      <div class="form-group">
+					   		{{form.product_price.label(class="form-control-label")}}
 					   		{% if form.product_price.errors %}
-					   			{% for error in form.product_price.errors %}
-					   				<span class="text-danger">{{error}}</span>
-					   			{% endfor%}
-					   		{% endif%}
-					   	</div>
+					   				{{form.product_price(class="form-control form-control-lg is-invalid")}}
+					   				<div class="invalid-feedback">
+					   					{% for error in form.product_price.errors %}
+					   						<span>{{error}}</span>
+					   					{% endfor%}
+					   				</div>
+				   			{% else%}
+				   				{{form.product_price(class="form-control form-control-lg")}}
+				   			{% endif %}
+					   </div>
+
+
 				</fieldset>
 				<div class="form-group">
 				{{form.submit(class="btn btn-outline-info")}}

@@ -1,5 +1,209 @@
 {% extends 'base.html' %}
-{% block title %}{{title}} Page{% endblock title%}
+{% block title %}{{title}}{% endblock title%}
 {% block body %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    {% block page_content %}
+	<div class="container" style="margin-bottom: 455px">
+		<div class="row">
+			<div class="col-md-4 col-lg-4">
+				<div class="content-section">
+					<center>
+{#                        <h1>{{ product.product_picture }}</h1>#}
+						<div class="media" style="padding-bottom: 50px"><a href="{{ url_for ('product_detail',product_id = product.id) }}">
+                            <img src="{{ url_for('static', filename='images/imgs/download.jpeg') }}" alt="" class="img-responsive" style="height:100px; width:305px">
+                            <img src="{{ url_for('static', filename='images/imgs/download(1).jpeg') }}" alt="" class="img-responsive" style="height:100px; width:305px">
+{#							<img src="{{product.product_picture}}" class="img-rounded" style="height:240px ;width:240px;margin-bottom: 10px">#}</a>
+							<div class="media-body">
+
+							</div>
+
+						</div>
+					</center>
+				</div>
+			</div>
+			<div class="col-md-8 col-lg-8">
+				<div class="well" style="padding-bottom: 85px;height:240px ">
+					<p><b>{{product.product_title}}</b></p>
+					<p>{{product.product_content}}</p>
+                    <p>{{ product.product_price }}</p>
+                    <img src="{{ url_for('static', filename='images/imgs/download.png') }}" style="height:200px; width:210px">
+                    <a href="#">
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal{{product.id}}">
+	  						 BUY
+						</button></a>
+
+				</div>
+			</div>
+
+			{% if current_user.is_authenticated%}
+			<div class="col-md-8 col-lg-8"> <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+			<form method="POST" action="{{url_for('product_detail',product_id=product.id)}}" enctype="multipart/form-data" style="padding-bottom: 100px">
+			{{form.hidden_tag()}}
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4">Product details</legend>
+				   <div class="form-group">
+				   		{{form.product_title.label(class="form-control-label")}}
+				   			{% if form.product_title.errors %}
+				   				{{form.product_title(class="form-control form-control-lg is-invalid ")}}
+				   				<div class="invalid-feedback">
+				   					{% for error in form.product_title.errors %}
+				   						<span>{{error}}</span>
+				   					{% endfor%}
+				   				</div>
+				   			{% else%}
+				   				{{form.product_title(class="form-control form-control-lg")}}
+				   			{% endif %}
+				   </div>
+				   <div class="form-group">
+				   		{{form.product_content.label(class="form-control-label")}}
+				   		{% if form.product_content.errors %}
+				   				{{form.product_content(class="form-control form-control-lg is-invalid ")}}
+				   				<div class="invalid-feedback">
+				   					{% for error in form.product_content.errors %}
+				   						<span>{{error}}</span>
+				   					{% endfor%}
+				   				</div>
+				   			{% else%}
+				   				{{form.product_content(class="form-control form-control-lg")}}
+				   			{% endif %}
+				   </div>
+				    <div class="form-group">
+				   		{{form.product_price.label(class="form-control-label")}}
+				   		{% if form.product_price.errors %}
+				   				{{form.product_price(class="form-control form-control-lg is-invalid ")}}
+				   				<div class="invalid-feedback">
+				   					{% for error in form.product_price.errors %}
+				   						<span>{{error}}</span>
+				   					{% endfor%}
+				   				</div>
+				   			{% else%}
+				   				{{form.product_price(class="form-control form-control-lg")}}
+				   			{% endif %}
+				   </div>
+
+
+				   <div class="row">
+				   		<div class="col-md-6 col-lg-6">
+				   			<div class="form-group">
+						   		{{form.product_picture.label()}}
+						   		{{form.product_picture(class="form-control-file")}}
+
+						   		{% if form.product_picture.errors %}
+						   			{% for error in form.product_picture.errors %}
+						   				<span class="text-danger">{{error}}</span>
+						   			{% endfor%}
+						   		{% endif%}
+				   			</div>
+				   		</div>
+
+				   </div>
+
+			</fieldset>
+			<div class="form-group">
+				<div class="#">
+
+
+					 <div class="modal fade" id="exampleModal{{product.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel{{product.id}}" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h3 class="modal-title text-warning" id="exampleModalLabel{{product.id}}" style="text-align: center">{{product.product_title}}</h3>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      	<div class="thumbnail">
+									<a href="{{url_for('product_detail', product_id=product.id)}}">
+										<img src="{{product_picture}}" alt="..." class="img-responsive" style="height:200px; width:305px">
+									</a>
+								</div>
+						        <p>{{product.product_content}}</p>
+                                  <h3>{{ product.product_price }}</h3>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						       <a href="{{url_for('index', product_id=product.id)}}" class="btn btn-warning">BUY {{product.product_title}}</a>
+						      </div>
+						    </div>
+						 </div>
+					</div>
+					 {{form.submit(class="btn btn-outline-info btn-block")}}
+					 <button type="button" class="btn btn-primary btn-block btn-danger " data-toggle="modal" data-target="#exampleModal{{product.id}}">
+  						BUY
+					</button>
+				</div>
+
+			</div>
+	</form>
+	</div>
+			{% endif%}
+</div>
+    </div>
+{% endblock page_content %}
+    <!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-black"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-black w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge w3-black">Quote of the day: live life to the fullest</h1>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.snapchat.com/"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href=https://twitter.com/login?lang=en""><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/uas/login"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ </div>
+</footer>
 
 {% endblock body %}

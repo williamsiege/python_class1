@@ -15,9 +15,9 @@
 			<div class="panel-body">
 				<form action="{{ url_for('register')}}" method ="POST" class="w3-large w3-text-black">
 					{{ form.hidden_tag() }}
-					{{ wtf.form_field(form.username) }}
-					{{ wtf.form_field(form.email) }}
-					{{ wtf.form_field(form.password) }}
+					{{ wtf.form_field(form.user_username) }}
+					{{ wtf.form_field(form.user_email) }}
+					{{ wtf.form_field(form.user_password) }}
 					{{ wtf.form_field(form.confirm) }}
 					{{ wtf.form_field(form.submit) }}
 				</form>
